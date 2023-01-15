@@ -2,12 +2,67 @@
     display:flex;
     flex-direction: column;
     justify-content: center;
-    background: url("../assests/yabahero.jpg") no-repeat;
+    background: linear-gradient(0deg, rgba(45, 5, 82, 0.692), rgba(45, 5, 82, 0.3)), url("../assests/cehero.png") no-repeat;
     background-size: cover;
     height: 100vh;
 }
 
 .hero__content{
-    margin-left: 30px;
+    margin-left: 76px;
+    margin-top: -150px;
+    text-transform: capitalize;
+    font-style: normal;
+    
+
+}
+
+#hero {
+    color: #FBB000;
+    display: block;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 39px;
+    line-height: 0px;
+
+}
+
+.hero__content h1{
+    color: #fff;
+    font-size: 57px;
+
+}
+
+#hero1 {
+    display: block;
+    color: #fff;
+    font-size: 57px;
+    font-weight: 700px;
+    line-height: 20px;
+}
+
+.play__btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #11214D;
+    margin: 25px;
+    width: 139px;
+    height: 38px;
+    border: #11214D;
+    border-radius: 5px;
+}
+
+.hero__content img{
+    width: 22px;
+    height: 22px;
+    margin-top: -2px;
+    margin-left: 5px;
+}
+
+.hero__content P {
+    color: #fff;
+    font-size: 14px;    
+    text-transform: uppercase;
+   
 }
 
